@@ -168,8 +168,8 @@ describe('Counter', () => {
 ## Examples
 
 - [starter kit](https://github.com/rhlsthrm/typescript-solidity-dev-starter-kit)
-- [example-ethers](https://github.com/ethereum-ts/TypeChain/tree/master/examples/hardhat)
-- [example-truffle](https://github.com/ethereum-ts/TypeChain/tree/master/examples/hardhat-truffle-v5)
+- [example-ethers](https://github.com/ethereum-ts/TypeChain/tree/main/examples/hardhat)
+- [example-truffle](https://github.com/ethereum-ts/TypeChain/tree/main/examples/hardhat-truffle-v5)
 - @paulrberg's [solidity-template](https://github.com/paulrberg/solidity-template)
 
 Original work done by [@RHLSTHRM](https://twitter.com/RHLSTHRM).

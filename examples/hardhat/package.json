@@ -8,7 +8,7 @@
     "compile": "pnpm hardhat compile",
     "clean": "pnpm hardhat clean",
     "test": "hardhat test",
-    "typecheck": "pnpm compile && pnpm test && pnpm tsc --noEmit"
+    "typecheck": "pnpm install && pnpm compile && pnpm test && pnpm tsc --noEmit"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",

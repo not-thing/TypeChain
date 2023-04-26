@@ -15,14 +15,14 @@
 
   <p align="center">
     <i>Used by the best:</i> <br/>
-    <img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/maker-logo.png" height="110" alt="Maker DAO" />
-    <a href="https://github.com/Uniswap/uniswap-v3-core/blob/main/hardhat.config.ts#L1"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/uniswap-logo.png" height="90" alt="Uniswap" /></a>
-    <a href="https://github.com/aave/protocol-v2/blob/master/hardhat.config.ts#L16"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/aave-logo.png" height="60" alt="AAVE" /></a>
+    <img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/maker-logo.png" height="110" alt="Maker DAO" />
+    <a href="https://github.com/Uniswap/uniswap-v3-core/blob/main/hardhat.config.ts#L1"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/uniswap-logo.png" height="90" alt="Uniswap" /></a>
+    <a href="https://github.com/aave/protocol-v2/blob/main/hardhat.config.ts#L16"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/aave-logo.png" height="60" alt="AAVE" /></a>
     <br/>
-    <a href="https://github.com/ethereum-optimism/optimism/blob/master/packages/contracts/hardhat.config.ts#L14"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/optimism-logo.png" height="90" alt="Optimism" /></a>
-    <a href="https://github.com/matter-labs/zksync/blob/9687049af1efbd14d8e47d97ebea643e1516da9d/contracts/hardhat.config.ts#L4"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/zksync-logo.png" height="100" alt="zkSync" /></a>
-    <a href="https://github.com/KyberNetwork/dao_sc/blob/master/hardhat.config.ts#L8"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/kyber-logo.png" height="100" alt="Kyber" /></a>
-    <a href="https://github.com/OffchainLabs/arbitrum/blob/133ac08dbf423ce7ca79343260869e46bf02a543/packages/arb-bridge-eth/package.json#L39"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/master/docs/images/arbitrum-logo.png" height="100" alt="Arbitrum" /></a>
+    <a href="https://github.com/ethereum-optimism/optimism/blob/main/packages/contracts/hardhat.config.ts#L14"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/optimism-logo.png" height="90" alt="Optimism" /></a>
+    <a href="https://github.com/matter-labs/zksync/blob/9687049af1efbd14d8e47d97ebea643e1516da9d/contracts/hardhat.config.ts#L4"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/zksync-logo.png" height="100" alt="zkSync" /></a>
+    <a href="https://github.com/KyberNetwork/dao_sc/blob/main/hardhat.config.ts#L8"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/kyber-logo.png" height="100" alt="Kyber" /></a>
+    <a href="https://github.com/OffchainLabs/arbitrum/blob/133ac08dbf423ce7ca79343260869e46bf02a543/packages/arb-bridge-eth/package.json#L39"><img src="https://raw.githubusercontent.com/ethereum-ts/TypeChain/main/docs/images/arbitrum-logo.png" height="100" alt="Arbitrum" /></a>
   </p>
 </p>
 
@@ -69,7 +69,7 @@ Under the hood, `eth-sdk` relies on `TypeChain`.
 ### CLI
 
 _Note: If you use hardhat just use
-[hardhat plugin](https://github.com/ethereum-ts/TypeChain/tree/master/packages/hardhat)._
+[hardhat plugin](https://github.com/ethereum-ts/TypeChain/tree/main/packages/hardhat)._
 
 ```
 typechain --target=(ethers-v5|truffle-v4|truffle-v5|web3-v1|path-to-custom-target) [glob]
@@ -126,7 +126,7 @@ That's it! Now, you can simply import typings, check out our examples for more d
 ### Ethers.js v5
 
 Use `ethers-v5` target to generate wrappers for [ethers.js](https://github.com/ethers-io/ethers.js/) lib. To make it
-work great with Hardhat, use [Hardhat plugin](https://github.com/ethereum-ts/TypeChain/tree/master/packages/hardhat).
+work great with Hardhat, use [Hardhat plugin](https://github.com/ethereum-ts/TypeChain/tree/main/packages/hardhat).
 
 If you're using Ethers.js v4, you can find legacy `@typechain/ethers-v4` target on
 [npm](https://www.npmjs.com/package/@typechain/ethers-v4) and commit
@@ -135,7 +135,7 @@ If you're using Ethers.js v4, you can find legacy `@typechain/ethers-v4` target 
 ### Truffle v5
 
 Truffle target is great when you use truffle contracts already. Check out
-[truffle-typechain-example](https://github.com/dethcrypto/TypeChain/tree/master/examples/truffle-v5) for more details.
+[truffle-typechain-example](https://github.com/dethcrypto/TypeChain/tree/main/examples/truffle-v5) for more details.
 
 Now you can simply use your contracts as you did before and get full type safety, yay!
 
@@ -206,7 +206,7 @@ main().catch(console.error)
 
 If you don't care about incremental generation just specify the same set of files for `filesToProcess` and `allFiles`.
 For incremental generation example read the source code of
-[hardhat plugin](https://github.com/ethereum-ts/TypeChain/blob/master/packages/hardhat/src/index.ts).
+[hardhat plugin](https://github.com/ethereum-ts/TypeChain/blob/main/packages/hardhat/src/index.ts).
 
 # Contributing
 

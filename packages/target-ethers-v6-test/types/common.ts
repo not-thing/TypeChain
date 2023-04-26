@@ -23,7 +23,7 @@ export interface TypedContractEvent<
   InputTuple extends Array<any> = any,
   OutputTuple extends Array<any> = any,
   OutputObject = any
-> {
+> extends EventLog {
   (...args: Partial<InputTuple>): TypedDeferredTopicFilter<
     TypedContractEvent<InputTuple, OutputTuple, OutputObject>
   >;

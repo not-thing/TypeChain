@@ -3,8 +3,8 @@
 /* eslint-disable */
 import { Signer, utils, Contract, ContractFactory, Overrides } from "ethers";
 import type { Provider, TransactionRequest } from "@ethersproject/providers";
-import type { PromiseOrValue } from "../../common";
-import type { ERC20, ERC20Interface } from "../../externalArtifacts/ERC20";
+import type { PromiseOrValue } from "../common";
+import type { ERC20, ERC20Interface } from "../ERC20";
 
 const _abi = [
   {
@@ -341,7 +341,7 @@ export class ERC20__factory extends ContractFactory {
   static createInterface(): ERC20Interface {
     return new utils.Interface(_abi) as ERC20Interface;
   }
-  static connect(address: string, signerOrProvider: Signer | Provider): ERC20 {
+  static connect(address: string, signerOrProvider?: Signer | Provider): ERC20 {
     return new Contract(address, _abi, signerOrProvider) as ERC20;
   }
 }

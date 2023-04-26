@@ -7,7 +7,7 @@ import { FileDescription } from '../typechain/types'
 /**
  * returns barrel files with reexports for all given paths
  *
- * @see https://github.com/basarat/typescript-book/blob/master/docs/tips/barrel.md
+ * @see https://github.com/basarat/typescript-book/blob/main/docs/tips/barrel.md
  */
 export function createBarrelFiles(
   paths: string[],
