@@ -76,7 +76,7 @@ importers:
         version: 5.1.0
       ts-node:
         specifier: ^10.7.0
-        version: 10.7.0(@types/node@18.14.0)(typescript@4.9.5)
+        version: 10.7.0(typescript@4.9.5)
       typechain:
         specifier: workspace:^8.1.1
         version: link:../../packages/typechain
@@ -98,7 +98,7 @@ importers:
         version: 5.1.0
       ts-node:
         specifier: ^10.7.0
-        version: 10.7.0(@types/node@18.14.0)(typescript@4.9.5)
+        version: 10.7.0(typescript@4.9.5)
       typechain:
         specifier: workspace:^8.1.1
         version: link:../../packages/typechain
@@ -312,7 +312,7 @@ importers:
         version: 4.11.6
       ts-node:
         specifier: ^10.7.0
-        version: 10.7.0(@types/node@18.14.0)(typescript@4.9.5)
+        version: 10.7.0
       typechain:
         specifier: workspace:^8.1.1
         version: link:../../packages/typechain
@@ -346,7 +346,7 @@ importers:
         version: 5.6.0
       hardhat:
         specifier: ^2.9.9
-        version: 2.9.9(ts-node@10.7.0)(typescript@4.6.2)
+        version: 2.9.9(typescript@4.6.2)
       rimraf:
         specifier: ^3.0.2
         version: 3.0.2
@@ -379,7 +379,7 @@ importers:
         version: 5.6.0
       hardhat:
         specifier: ^2.9.9
-        version: 2.9.9(ts-node@10.7.0)(typescript@4.9.5)
+        version: 2.9.9
       test-utils:
         specifier: 1.0.0
         version: link:../test-utils
@@ -560,9 +560,6 @@ importers:
       lodash:
         specifier: ^4.17.15
         version: 4.17.21
-      truffle:
-        specifier: ^5.0.0
-        version: 5.5.4
     devDependencies:
       '@types/lodash':
         specifier: ^4.14.139
@@ -659,7 +656,7 @@ importers:
         version: 4.17.21
       ts-essentials:
         specifier: ^7.0.1
-        version: 7.0.3(typescript@4.9.5)
+        version: 7.0.3
     devDependencies:
       '@types/bn.js':
         specifier: ^4.11.6
@@ -754,7 +751,7 @@ importers:
         version: 5.0.0
       ts-essentials:
         specifier: ^7.0.1
-        version: 7.0.3(typescript@4.9.5)
+        version: 7.0.3
 
   packages/typechain:
     dependencies:
@@ -763,7 +760,7 @@ importers:
         version: 2.2.3
       debug:
         specifier: ^4.3.1
-        version: 4.3.3(supports-color@8.1.1)
+        version: 4.3.3
       fs-extra:
         specifier: ^7.0.0
         version: 7.0.1
@@ -787,10 +784,7 @@ importers:
         version: 2.2.1
       ts-essentials:
         specifier: ^7.0.1
-        version: 7.0.3(typescript@4.9.5)
-      typescript:
-        specifier: '>=4.3.0'
-        version: 4.9.5
+        version: 7.0.3
     devDependencies:
       '@types/bluebird':
         specifier: ^3.5.18
@@ -1142,7 +1136,7 @@ packages:
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       espree: 7.3.1
       globals: 13.9.0
       ignore: 4.0.6
@@ -1242,7 +1236,7 @@ packages:
       '@ethereumjs/block': 3.6.2
       '@ethereumjs/common': 2.6.4
       '@ethereumjs/ethash': 1.1.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       ethereumjs-util: 7.1.5
       level-mem: 5.0.1
       lru-cache: 5.1.1
@@ -1296,7 +1290,7 @@ packages:
       '@ethereumjs/tx': 3.5.2
       async-eventemitter: 0.2.4
       core-js-pure: 3.21.1
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       ethereumjs-util: 7.1.5
       functional-red-black-tree: 1.0.1
       mcl-wasm: 0.7.9
@@ -2014,7 +2008,7 @@ packages:
     engines: {node: '>=10.10.0'}
     dependencies:
       '@humanwhocodes/object-schema': 1.2.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       minimatch: 3.0.4
     transitivePeerDependencies:
       - supports-color
@@ -2252,7 +2246,7 @@ packages:
       hardhat: ^2.0.0
     dependencies:
       ethers: 5.6.0
-      hardhat: 2.9.9(ts-node@10.7.0)(typescript@4.6.2)
+      hardhat: 2.9.9(typescript@4.6.2)
     dev: true
 
   /@nomiclabs/hardhat-etherscan@2.1.8(hardhat@2.9.9):
@@ -2263,7 +2257,7 @@ packages:
       '@ethersproject/abi': 5.6.0
       '@ethersproject/address': 5.6.0
       cbor: 5.2.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       fs-extra: 7.0.1
       hardhat: 2.9.9(ts-node@10.7.0)(typescript@4.9.5)
       node-fetch: 2.6.7
@@ -2691,7 +2685,7 @@ packages:
       '@types/ws': 7.4.7
       isomorphic-ws: 4.0.1(ws@7.5.7)
       loglevel: 1.8.0
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -2873,7 +2867,7 @@ packages:
       big.js: 5.2.2
       bn.js: 5.2.0
       cbor: 5.2.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       lodash: 4.17.21
       semver: 7.3.5
       utf8: 3.0.0
@@ -2887,7 +2881,7 @@ packages:
       big.js: 5.2.2
       bn.js: 4.12.0
       borc: 2.1.2
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       lodash.clonedeep: 4.5.0
       lodash.escaperegexp: 4.1.2
       lodash.partition: 4.6.0
@@ -2926,7 +2920,7 @@ packages:
     resolution: {integrity: sha512-YzVAoPxEnM7pz7vLrQvtgtnpIwERrZcbYRjRTEJP8Y7rxudYDYaZ8PwjHD3j0SQxE6Y0WquDi3PtbfgZB9BwYQ==}
     dependencies:
       ajv: 6.12.6
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2952,7 +2946,7 @@ packages:
       '@truffle/config': 1.3.22
       abstract-leveldown: 7.2.0
       apollo-server: 3.6.4(graphql@15.8.0)
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       fs-extra: 9.1.0
       graphql: 15.8.0
       graphql-tag: 2.12.6(graphql@15.8.0)
@@ -2979,7 +2973,7 @@ packages:
       '@truffle/codec': 0.7.1
       '@trufflesuite/chromafi': 2.2.2
       chalk: 2.4.2
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       highlight.js: 9.18.5
       highlightjs-solidity: 1.2.2
     transitivePeerDependencies:
@@ -2993,7 +2987,7 @@ packages:
       '@truffle/codec': 0.12.2
       '@truffle/source-map-utils': 1.3.74
       bn.js: 5.2.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       json-pointer: 0.6.2
       json-stable-stringify: 1.0.1
       lodash: 4.17.21
@@ -3064,7 +3058,7 @@ packages:
       ipfs-http-client: 48.2.2
       isomorphic-ws: 4.0.1(ws@7.5.7)
       iter-tools: 7.2.2
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3123,7 +3117,7 @@ packages:
     dependencies:
       '@truffle/code-utils': 1.2.32
       '@truffle/codec': 0.12.2
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       json-pointer: 0.6.2
       node-interval-tree: 1.3.3
       web3-utils: 1.5.3
@@ -3165,7 +3159,7 @@ packages:
       '@zondax/filecoin-signing-tools': github.com/Digital-MOB-Filecoin/filecoin-signing-tools-js/8f8e92157cac2556d35cab866779e9a8ea8a4e25
       bignumber.js: 9.0.2
       bitcore-lib: 8.25.25
-      bitcore-mnemonic: 8.25.25(bitcore-lib@8.25.25)
+      bitcore-mnemonic: 8.25.25
       btoa-lite: 1.0.0
       events: 3.3.0
       isomorphic-ws: 4.0.1(ws@7.5.7)
@@ -3175,7 +3169,7 @@ packages:
       tweetnacl: 1.0.3
       tweetnacl-util: 0.15.1
       websocket: 1.0.34
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -3694,7 +3688,7 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.15.1
       '@typescript-eslint/visitor-keys': 4.15.1
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       globby: 11.0.4
       is-glob: 4.0.1
       semver: 7.3.5
@@ -3867,7 +3861,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3880,10 +3874,8 @@ packages:
       indent-string: 4.0.0
     dev: true
 
-  /ajv-formats@2.1.1(ajv@8.6.3):
+  /ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
-    peerDependencies:
-      ajv: ^8.0.0
     peerDependenciesMeta:
       ajv:
         optional: true
@@ -4342,7 +4334,7 @@ packages:
     resolution: {integrity: sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==}
     deprecated: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
     dependencies:
-      follow-redirects: 1.14.9(debug@4.3.3)
+      follow-redirects: 1.14.9
     transitivePeerDependencies:
       - debug
     optional: true
@@ -4350,14 +4342,14 @@ packages:
   /axios@0.23.0:
     resolution: {integrity: sha512-NmvAE4i0YAv5cKq8zlDoPd1VLKAqX5oLuZKs8xkJa4qi6RGn0uhCYFjWtHHC9EM/MwOwYWOs53W+V0aqEXq1sg==}
     dependencies:
-      follow-redirects: 1.14.9(debug@4.3.3)
+      follow-redirects: 1.14.9
     transitivePeerDependencies:
       - debug
 
   /axios@0.25.0:
     resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
     dependencies:
-      follow-redirects: 1.14.9(debug@4.3.3)
+      follow-redirects: 1.14.9
     transitivePeerDependencies:
       - debug
     dev: true
@@ -4365,7 +4357,7 @@ packages:
   /axios@0.26.1:
     resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
     dependencies:
-      follow-redirects: 1.14.9(debug@4.3.3)
+      follow-redirects: 1.14.9
     transitivePeerDependencies:
       - debug
 
@@ -5023,10 +5015,8 @@ packages:
       lodash: 4.17.21
     optional: true
 
-  /bitcore-mnemonic@8.25.25(bitcore-lib@8.25.25):
+  /bitcore-mnemonic@8.25.25:
     resolution: {integrity: sha512-7HvRxHrmd+Rh0Ohl0SEDMKQBAM+FoevXbCFnxGju6H+uZjtWMOToHA8vUg0+B91pfEMjdt9mQVB/wSA8GMqnCA==}
-    peerDependencies:
-      bitcore-lib: ^8.20.1
     dependencies:
       bitcore-lib: 8.25.25
       unorm: 1.6.0
@@ -5842,7 +5832,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       ajv: 8.6.3
-      ajv-formats: 2.1.1(ajv@8.6.3)
+      ajv-formats: 2.1.1
       atomically: 1.7.0
       debounce-fn: 4.0.0
       dot-prop: 6.0.1
@@ -6179,6 +6169,17 @@ packages:
       ms: 2.1.2
     dev: true
 
+  /debug@4.3.3:
+    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+
   /debug@4.3.3(supports-color@8.1.1):
     resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
     engines: {node: '>=6.0'}
@@ -6190,6 +6191,7 @@ packages:
     dependencies:
       ms: 2.1.2
       supports-color: 8.1.1
+    dev: true
 
   /decamelize-keys@1.1.0:
     resolution: {integrity: sha1-0XGoeTMlKAfrPLYdwcFEXQeN8tk=}
@@ -6399,7 +6401,7 @@ packages:
   /dns-over-http-resolver@1.2.3:
     resolution: {integrity: sha512-miDiVSI6KSNbi4SVifzO/reD8rMnxgrlnkrlkugOLQpWQTe2qMdHsZp5DmfKjxNE+/T3VAAYLQUZMv9SMr6+AA==}
     dependencies:
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       native-fetch: 3.0.0
       receptacle: 1.3.2
     transitivePeerDependencies:
@@ -6488,7 +6490,7 @@ packages:
   /earljs@0.2.2(typescript@4.9.5):
     resolution: {integrity: sha512-AnIsKzKtCtxIW2SEAu7IncpBNaeAVBWfgn/rGrHTRVgtI8BYH6o1mfKgj5numdPfI3IDt0Is/FI+zYhknOFXcw==}
     dependencies:
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       jest-snapshot: 26.6.2
       ts-essentials: 6.0.7(typescript@4.9.5)
     transitivePeerDependencies:
@@ -7933,6 +7935,15 @@ packages:
     resolution: {integrity: sha1-SiksW8/4s5+mzAyxqFPYbyfu/3s=}
     dev: true
 
+  /follow-redirects@1.14.9:
+    resolution: {integrity: sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
   /follow-redirects@1.14.9(debug@4.3.3):
     resolution: {integrity: sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==}
     engines: {node: '>=4.0'}
@@ -7942,7 +7953,8 @@ packages:
       debug:
         optional: true
     dependencies:
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
+    dev: true
 
   /for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
@@ -8398,7 +8410,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /hardhat@2.9.9(ts-node@10.7.0)(typescript@4.6.2):
+  /hardhat@2.9.9:
     resolution: {integrity: sha512-Qv7SXnRc0zq1kGXruNnSKpP3eFccXMR5Qv6GVX9hBIJ5efN0PflKPq92aQ5Cv3jrjJeRevLznWZVz7bttXhVfw==}
     engines: {node: ^12.0.0 || ^14.0.0 || ^16.0.0}
     hasBin: true
@@ -8429,7 +8441,7 @@ packages:
       chalk: 2.4.2
       chokidar: 3.5.3
       ci-info: 2.0.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       enquirer: 2.3.6
       env-paths: 2.2.1
       ethereum-cryptography: 0.1.3
@@ -8455,12 +8467,10 @@ packages:
       source-map-support: 0.5.20
       stacktrace-parser: 0.1.10
       true-case-path: 2.2.1
-      ts-node: 10.7.0(@types/node@18.14.0)(typescript@4.9.5)
       tsort: 0.0.1
-      typescript: 4.6.2
       undici: 5.4.0
       uuid: 8.3.2
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -8498,7 +8508,7 @@ packages:
       chalk: 2.4.2
       chokidar: 3.5.3
       ci-info: 2.0.0
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       enquirer: 2.3.6
       env-paths: 2.2.1
       ethereum-cryptography: 0.1.3
@@ -8529,7 +8539,75 @@ packages:
       typescript: 4.9.5
       undici: 5.4.0
       uuid: 8.3.2
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
+    transitivePeerDependencies:
+      - bufferutil
+      - supports-color
+      - utf-8-validate
+    dev: true
+
+  /hardhat@2.9.9(typescript@4.6.2):
+    resolution: {integrity: sha512-Qv7SXnRc0zq1kGXruNnSKpP3eFccXMR5Qv6GVX9hBIJ5efN0PflKPq92aQ5Cv3jrjJeRevLznWZVz7bttXhVfw==}
+    engines: {node: ^12.0.0 || ^14.0.0 || ^16.0.0}
+    hasBin: true
+    peerDependencies:
+      ts-node: '*'
+      typescript: '*'
+    peerDependenciesMeta:
+      ts-node:
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@ethereumjs/block': 3.6.2
+      '@ethereumjs/blockchain': 5.5.3
+      '@ethereumjs/common': 2.6.4
+      '@ethereumjs/tx': 3.5.2
+      '@ethereumjs/vm': 5.9.2
+      '@ethersproject/abi': 5.6.0
+      '@metamask/eth-sig-util': 4.0.0
+      '@sentry/node': 5.30.0
+      '@solidity-parser/parser': 0.14.1
+      '@types/bn.js': 5.1.0
+      '@types/lru-cache': 5.1.1
+      abort-controller: 3.0.0
+      adm-zip: 0.4.16
+      aggregate-error: 3.1.0
+      ansi-escapes: 4.3.2
+      chalk: 2.4.2
+      chokidar: 3.5.3
+      ci-info: 2.0.0
+      debug: 4.3.3
+      enquirer: 2.3.6
+      env-paths: 2.2.1
+      ethereum-cryptography: 0.1.3
+      ethereumjs-abi: 0.6.8
+      ethereumjs-util: 7.1.4
+      find-up: 2.1.0
+      fp-ts: 1.19.3
+      fs-extra: 7.0.1
+      glob: 7.2.0
+      immutable: 4.0.0
+      io-ts: 1.10.4
+      lodash: 4.17.21
+      merkle-patricia-tree: 4.2.4
+      mnemonist: 0.38.5
+      mocha: 9.2.2
+      p-map: 4.0.0
+      qs: 6.10.3
+      raw-body: 2.5.1
+      resolve: 1.17.0
+      semver: 6.3.0
+      slash: 3.0.0
+      solc: 0.7.3(debug@4.3.3)
+      source-map-support: 0.5.20
+      stacktrace-parser: 0.1.10
+      true-case-path: 2.2.1
+      tsort: 0.0.1
+      typescript: 4.6.2
+      undici: 5.4.0
+      uuid: 8.3.2
+      ws: 7.5.7
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -8738,7 +8816,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8926,7 +9004,7 @@ packages:
       any-signal: 2.1.2
       bignumber.js: 9.0.1
       cids: 1.1.9
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       form-data: 3.0.1
       ipfs-core-types: 0.2.1
       ipfs-core-utils: 0.6.1
@@ -9413,7 +9491,7 @@ packages:
     peerDependencies:
       ws: '*'
     dependencies:
-      ws: 7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9)
+      ws: 7.5.7
     optional: true
 
   /isstream@0.1.2:
@@ -13818,6 +13896,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       has-flag: 4.0.0
+    dev: true
 
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
@@ -14161,6 +14240,15 @@ packages:
       typescript: 4.9.5
     dev: true
 
+  /ts-essentials@7.0.3:
+    resolution: {integrity: sha512-8+gr5+lqO3G84KdiTSMRLtuyJ+nTBVRKuCrK4lidMPdVeEp0uqC875uE5NMcaA7YYMN7XsNiFQuMvasF8HT/xQ==}
+    peerDependencies:
+      typescript: '>=3.7.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dev: false
+
   /ts-essentials@7.0.3(typescript@4.6.2):
     resolution: {integrity: sha512-8+gr5+lqO3G84KdiTSMRLtuyJ+nTBVRKuCrK4lidMPdVeEp0uqC875uE5NMcaA7YYMN7XsNiFQuMvasF8HT/xQ==}
     peerDependencies:
@@ -14212,6 +14300,39 @@ packages:
       ts-essentials: 1.0.4
     dev: true
 
+  /ts-node@10.7.0:
+    resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
+    hasBin: true
+    peerDependencies:
+      '@swc/core': '>=1.2.50'
+      '@swc/wasm': '>=1.2.50'
+      '@types/node': '*'
+      typescript: '>=2.7'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      '@swc/wasm':
+        optional: true
+      '@types/node':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@cspotcode/source-map-support': 0.7.0
+      '@tsconfig/node10': 1.0.8
+      '@tsconfig/node12': 1.0.9
+      '@tsconfig/node14': 1.0.1
+      '@tsconfig/node16': 1.0.2
+      acorn: 8.7.0
+      acorn-walk: 8.2.0
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      v8-compile-cache-lib: 3.0.0
+      yn: 3.1.1
+    dev: true
+
   /ts-node@10.7.0(@types/node@18.14.0)(typescript@4.9.5):
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
@@ -14236,6 +14357,40 @@ packages:
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
       '@types/node': 18.14.0
+      acorn: 8.7.0
+      acorn-walk: 8.2.0
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.2
+      make-error: 1.3.6
+      typescript: 4.9.5
+      v8-compile-cache-lib: 3.0.0
+      yn: 3.1.1
+    dev: true
+
+  /ts-node@10.7.0(typescript@4.9.5):
+    resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
+    hasBin: true
+    peerDependencies:
+      '@swc/core': '>=1.2.50'
+      '@swc/wasm': '>=1.2.50'
+      '@types/node': '*'
+      typescript: '>=2.7'
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      '@swc/wasm':
+        optional: true
+      '@types/node':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@cspotcode/source-map-support': 0.7.0
+      '@tsconfig/node10': 1.0.8
+      '@tsconfig/node12': 1.0.9
+      '@tsconfig/node14': 1.0.1
+      '@tsconfig/node16': 1.0.2
       acorn: 8.7.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -14377,7 +14532,7 @@ packages:
     hasBin: true
     dependencies:
       command-line-args: 4.0.7
-      debug: 4.3.3(supports-color@8.1.1)
+      debug: 4.3.3
       fs-extra: 7.0.1
       js-sha3: 0.8.0
       lodash: 4.17.21
@@ -16318,6 +16473,18 @@ packages:
       utf-8-validate:
         optional: true
 
+  /ws@7.5.7:
+    resolution: {integrity: sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A==}
+    engines: {node: '>=8.3.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: ^5.0.2
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
   /ws@7.5.7(bufferutil@4.0.6)(utf-8-validate@5.0.9):
     resolution: {integrity: sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A==}
     engines: {node: '>=8.3.0'}
@@ -16332,6 +16499,7 @@ packages:
     dependencies:
       bufferutil: 4.0.6
       utf-8-validate: 5.0.9
+    optional: true
 
   /ws@8.5.0:
     resolution: {integrity: sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==}
